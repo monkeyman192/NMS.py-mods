@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="mdModInfo">
+	<Property name="Name" value="Mod Menu" />
+	<Property name="Authors">
+		<Property name="Authors" value="monkeyman192" />
+	</Property>
+	<Property name="Description" value="Adds a built-in mod manager to the options pages" />
+	<Property name="Version" value="0.1" />
+</Data>

@@ -1,0 +1,19 @@
+[project]
+name = "nms-py-mods"
+version = "0.1.0"
+description = "A collection of mods for NMS.py"
+readme = "README.md"
+authors = [
+  {name = "monkeyman192"}
+]
+maintainers = [
+  {name = "monkeyman192"}
+]
+requires-python = ">=3.10"
+dependencies = ["nmspy"]
+
+[tool.uv]
+python-preference = "only-system"
+environments = [
+  "sys_platform == 'win32'",
+]
